@@ -103,3 +103,14 @@ footer form {
   margin-left: 2rem;
   display: inline;
 }
+
+body { color: red; }
+@media (min-width: 410px) {
+  body { color: purple; }
+}
+@media (min-width: 700px) {
+  body { color: blue; }
+}
+@media (min-width: 1100px) {
+  body { color: black; }
+}
